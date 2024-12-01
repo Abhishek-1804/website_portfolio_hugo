@@ -1,6 +1,6 @@
 baseURL: "/"
-title: WebsitePortfolio
-paginate: 5
+title: Portfolio
+paginate: 6
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -15,7 +15,7 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: WebsitePortfolio
-  description: "A software engineer's portfolio and blog."
+  description: "Portfolio"
   keywords: [Blog, Portfolio, PaperMod, Resume]
   author: Abhishek Deshpande
   # author: ["Me", "You"] # multiple authors
@@ -46,39 +46,44 @@ params:
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
     favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    # icon: icons/home.svg
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
-    imageTitle: my image
+    enabled: true # needs to be explicitly set
+    title: Abhishek Deshpande
+    subtitle: "Hey there!"
+    imageUrl: "/images/me.jpeg"
+    imageWidth: 150
+    imageHeight: 150
+    imageTitle: Me
     buttons:
-      - name: Posts
+      - name: Portfolio
+        url: Portfolio
+      - name: Resume
+        url: "https://drive.google.com/file/d/1Z0g-mcGxI1uOAOPPMJjPJ26FwhIdPU84/view?usp=drive_link"
+      - name: Blog
         url: posts
-      - name: Tags
-        url: tags
+      # - name: Tags
+      #   url: tags
 
-        # home-info mode
+  # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: Welcome to my Portfolio
 
   socialIcons:
     - name: github
-      url: "https://github.com/"
+      url: "https://github.com/Abhishek-1804"
     - name: linkedin
-      url: "https://linkedin.com/"
+      url: "https://linkedin.com/in/abhishekdeshpande18/"
+    - name: buymeacoffee
+      url: "https://buymeacoffee.com/abhishekdeshpande"
 
   analytics:
     google:
@@ -93,13 +98,13 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
-    # for search
-    # https://fusejs.io/api/options.html
+  # for search
+  # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -111,14 +116,22 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
     - identifier: portfolio
       name: Portfolio
       url: /portfolio/
-      weight: 5
+      weight: 2
     - identifier: blog
       name: Blog
       url: /posts/
-      weight: 10
+      weight: 3
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 4
       # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
