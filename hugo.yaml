@@ -1,6 +1,5 @@
 # baseURL: "/"
 baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio/"
-# baseURL: "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio"
 title: Portfolio
 paginate: 6
 theme: PaperMod
@@ -65,8 +64,8 @@ params:
     imageHeight: 150
     imageTitle: Me
     buttons:
-      - name: Portfolio
-        url: Portfolio
+      - name: About Me
+        url: portfolio
       - name: Resume
         url: "https://drive.google.com/file/d/1Z0g-mcGxI1uOAOPPMJjPJ26FwhIdPU84/view?usp=drive_link"
       - name: Blog
@@ -123,7 +122,7 @@ menu:
       url: /
       weight: 1
     - identifier: portfolio
-      name: Portfolio
+      name: About Me
       url: portfolio/
       weight: 2
     - identifier: blog
