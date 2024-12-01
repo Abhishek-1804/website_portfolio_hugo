@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Abhishek Deshpande
     subtitle: "Hey there!"
-    imageUrl: "/images/me.jpeg"
+    imageUrl: "images/me.jpeg"
     imageWidth: 150
     imageHeight: 150
     imageTitle: Me
@@ -124,15 +124,15 @@ menu:
       weight: 1
     - identifier: portfolio
       name: Portfolio
-      url: /portfolio/
+      url: portfolio/
       weight: 2
     - identifier: blog
       name: Blog
-      url: /posts/
+      url: posts/
       weight: 3
     - identifier: archives
       name: Archives
-      url: /archives/
+      url: archives/
       weight: 4
       # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
