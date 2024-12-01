@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>WebsitePortfolio</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on WebsitePortfolio</description>
+    <title>Portfolios on WebsitePortfolio</title>
+    <link>//localhost:1313/portfolio/</link>
+    <description>Recent content in Portfolios on WebsitePortfolio</description>
     <image>
       <title>WebsitePortfolio</title>
       <url>//localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,8 +11,8 @@
     </image>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Dec 2024 12:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="//localhost:1313/portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
       <link>//localhost:1313/portfolio/intro/</link>
@@ -54,13 +54,6 @@
       <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/portfolio/contact/</guid>
       <description>How to reach me.</description>
-    </item>
-    <item>
-      <title>My First Blog Post</title>
-      <link>//localhost:1313/posts/first/</link>
-      <pubDate>Sun, 01 Dec 2024 12:00:00 +0000</pubDate>
-      <guid>//localhost:1313/posts/first/</guid>
-      <description>An introductory blog post.</description>
     </item>
   </channel>
 </rss>

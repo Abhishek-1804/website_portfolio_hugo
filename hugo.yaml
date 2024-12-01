@@ -14,10 +14,10 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  title: WebsitePortfolio
+  description: "A software engineer's portfolio and blog."
   keywords: [Blog, Portfolio, PaperMod, Resume]
-  author: Me
+  author: Abhishek Deshpande
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
@@ -69,18 +69,16 @@ params:
       - name: Tags
         url: tags
 
-  # home-info mode
+        # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
     Content: Welcome to my blog
 
   socialIcons:
-    - name: x
-      url: "https://x.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
     - name: github
       url: "https://github.com/"
+    - name: linkedin
+      url: "https://linkedin.com/"
 
   analytics:
     google:
@@ -100,8 +98,8 @@ params:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
-  # for search
-  # https://fusejs.io/api/options.html
+    # for search
+    # https://fusejs.io/api/options.html
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -113,19 +111,15 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: portfolio
+      name: Portfolio
+      url: /portfolio/
+      weight: 5
+    - identifier: blog
+      name: Blog
+      url: /posts/
       weight: 10
-    - identifier: tags
-      name: tags
-      url: /tags/
-      weight: 20
-    - identifier: example
-      name: example.org
-      url: https://example.org
-      weight: 30
-# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+      # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
   highlight:
