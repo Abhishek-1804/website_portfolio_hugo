@@ -1,4 +1,6 @@
-baseURL: "/"
+# baseURL: "/"
+baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio/"
+# baseURL: "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio"
 title: Portfolio
 paginate: 6
 theme: PaperMod
@@ -14,7 +16,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: WebsitePortfolio
+  title: Portfolio
   description: "Portfolio"
   keywords: [Blog, Portfolio, PaperMod, Resume]
   author: Abhishek Deshpande
