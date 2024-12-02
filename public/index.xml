@@ -11,14 +11,32 @@
     </image>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Dec 2024 10:09:08 -0700</lastBuildDate>
+    <lastBuildDate>Mon, 02 Dec 2024 06:14:57 -0700</lastBuildDate>
     <atom:link href="https://abhishek-1804.github.io/abhishekdeshpande_portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Blog Post</title>
+      <title>Nix</title>
       <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/first/</link>
-      <pubDate>Sun, 01 Dec 2024 09:00:53 -0700</pubDate>
+      <pubDate>Mon, 02 Dec 2024 06:14:57 -0700</pubDate>
       <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/first/</guid>
-      <description>&lt;p&gt;This is my first blog post! I’ll be sharing insights about software development, my journey as an engineer, and more.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;the-universal-package-manager-&#34;&gt;The Universal Package Manager 🌟&lt;/h1&gt;
+&lt;p&gt;Nix is a powerful tool designed to revolutionize package management and system configuration. With its declarative approach, robust reproducibility, and ability to handle complex dependency trees, Nix has gained a reputation as one of the most innovative tools for developers, DevOps professionals, and software enthusiasts alike.&lt;/p&gt;
+&lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;#introduction-to-nix&#34;&gt;Introduction to Nix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#a-brief-history&#34;&gt;A Brief History&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#why-nix-is-revolutionary&#34;&gt;Why Nix is Revolutionary&lt;/a&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;#reproducible-builds&#34;&gt;Reproducible Builds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#declarative-configurations&#34;&gt;Declarative Configurations&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#isolated-environments&#34;&gt;Isolated Environments&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#cross-language-package-management&#34;&gt;Cross-Language Package Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#getting-started-with-nix&#34;&gt;Getting Started with Nix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#conclusion&#34;&gt;Conclusion&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;introduction-to-nix&#34;&gt;Introduction to Nix&lt;/h2&gt;
+&lt;p&gt;Nix is an advanced package manager that takes a &lt;strong&gt;declarative and reproducible approach&lt;/strong&gt; to managing software. Unlike traditional package managers, Nix ensures that your system remains consistent and isolated, making it easier to reproduce builds across different environments. However, Nix comes with a steep learning curve, requiring time and effort to fully grasp its concepts and capabilities, particularly for those new to declarative configurations and functional programming paradigms.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
