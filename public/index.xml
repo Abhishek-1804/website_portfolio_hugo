@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Portfolio</title>
-    <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/</link>
+    <link>http://localhost:1313/abhishekdeshpande_portfolio/</link>
     <description>Recent content on Portfolio</description>
     <image>
       <title>Portfolio</title>
-      <url>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/abhishekdeshpande_portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/abhishekdeshpande_portfolio/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.135.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Dec 2024 06:14:57 -0700</lastBuildDate>
-    <atom:link href="https://abhishek-1804.github.io/abhishekdeshpande_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Dec 2024 13:03:57 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/abhishekdeshpande_portfolio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nix</title>
-      <link>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/first/</link>
+      <link>http://localhost:1313/abhishekdeshpande_portfolio/posts/first/</link>
       <pubDate>Mon, 02 Dec 2024 06:14:57 -0700</pubDate>
-      <guid>https://abhishek-1804.github.io/abhishekdeshpande_portfolio/posts/first/</guid>
+      <guid>http://localhost:1313/abhishekdeshpande_portfolio/posts/first/</guid>
       <description>&lt;h1 id=&#34;the-universal-package-manager-&#34;&gt;The Universal Package Manager 🌟&lt;/h1&gt;
 &lt;p&gt;Nix is a powerful tool designed to revolutionize package management and system configuration. With its declarative approach, robust reproducibility, and ability to handle complex dependency trees, Nix has gained a reputation as one of the most innovative tools for developers, DevOps professionals, and software enthusiasts alike.&lt;/p&gt;
 &lt;h2 id=&#34;table-of-contents&#34;&gt;Table of Contents&lt;/h2&gt;
