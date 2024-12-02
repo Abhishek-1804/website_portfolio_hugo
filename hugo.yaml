@@ -1,5 +1,5 @@
-# baseURL: ""
-baseURL: "https://abhishek-1803.github.io/abhishekdeshpande_portfolio"
+# baseURL: "/"
+baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio/"
 title: Portfolio
 pagination:
   pagerSize: 6
@@ -60,7 +60,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Abhishek Deshpande
     subtitle: "Hey there!"
-    imageUrl: "images/me.jpeg"
+    imageUrl: "me.jpeg"
     imageWidth: 150
     imageHeight: 150
     imageTitle: Me
