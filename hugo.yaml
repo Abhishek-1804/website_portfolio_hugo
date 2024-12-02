@@ -1,5 +1,5 @@
-# baseURL: ""
-baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio"
+# baseURL: "/"
+baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio/"
 title: Portfolio
 pagination:
   pagerSize: 6
@@ -97,8 +97,8 @@ params:
 
   cover:
     # hidden: false # hide everywhere but not in structured data
-    hiddenInList: true # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
   # editPost:
   #   URL: "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio/content"

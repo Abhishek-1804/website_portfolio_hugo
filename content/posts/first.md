@@ -3,7 +3,7 @@ title: "Nix"
 date: 2024-12-02T06:14:57-07:00
 draft: false
 cover:
-  image: "/images/posts/first/nix.png"
+  image: "images/posts/first/nix.png"
 ---
 
 # The Universal Package Manager 🌟
