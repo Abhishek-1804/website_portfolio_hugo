@@ -1,8 +1,8 @@
-+++
-title = ''
-date = 2024-12-01T10:02:47-07:00
-draft = false
-+++
+---
+title: ""
+date: 2024-12-01T10:02:47-07:00
+draft: false
+---
 
 # Hi, I'm Abhishek Deshpande 👋
 
