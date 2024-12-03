@@ -3,7 +3,7 @@ title: "Nix"
 date: 2024-12-02T06:14:57-07:00
 draft: false
 cover:
-  image: "posts/first/cover.png"
+  image: "images/cover.png"
 ---
 
 # The Universal Package Manager 🌟
@@ -175,7 +175,7 @@ Run this command every time you rebuild your system configuration.
 
 Here’s a suggested file structure for managing configurations:
 
-![nix file structure](/posts/first/nix-file-structure.png)
+![nix file structure](../images/nix-file-structure.png)
 
 **Key Points**:
 

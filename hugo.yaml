@@ -1,4 +1,3 @@
-# baseURL: "/"
 baseURL: "https://abhishek-1804.github.io/abhishekdeshpande_portfolio/"
 title: Portfolio
 pagination:
@@ -148,6 +147,9 @@ menu:
       # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
     # anchorLineNos: true
