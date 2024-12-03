@@ -42,7 +42,6 @@ Here’s what I bring to the table:
 
 ### **Data Analyst Intern**
 
-![](/images/ganit.png)
 **Ganit Inc** (February 2022 – July 2022)
 
 - Reduced fraud analytics processing time by **40%** through optimized data workflows using **Pandas** and **Numpy**.
