@@ -176,7 +176,7 @@ Run this command every time you rebuild your system configuration.
 
 Here’s a suggested file structure for managing configurations:
 
-![nix file structure](/posts/first/nix-file-structure.png)
+![nix file structure](/abhishekdeshpande_portfolio/posts/first/nix-file-structure.png)
 
 **Key Points**:
 
