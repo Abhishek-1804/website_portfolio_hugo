@@ -2,6 +2,14 @@
 title: "Nix"
 date: 2024-12-02T06:14:57-07:00
 draft: false
+tags:
+  [
+    "nix",
+    "developer tools",
+    "system configuration",
+    "reproducible builds",
+    "dev setup",
+  ]
 cover:
   image: "posts/first/cover.png"
 weight: 1
@@ -10,18 +18,6 @@ weight: 1
 # The Universal Package Manager 🌟
 
 Nix is a powerful tool designed to revolutionize package management and system configuration. With its declarative approach, robust reproducibility, and ability to handle complex dependency trees, Nix has gained a reputation as one of the most innovative tools for developers, DevOps professionals, and software enthusiasts alike.
-
-## Table of Contents
-
-1. [Introduction to Nix](#introduction-to-nix)
-2. [A Brief History](#a-brief-history)
-3. [Why Nix is Revolutionary](#why-nix-is-revolutionary)
-   - [Reproducible Builds](#reproducible-builds)
-   - [Declarative Configurations](#declarative-configurations)
-   - [Isolated Environments](#isolated-environments)
-   - [Cross-Language Package Management](#cross-language-package-management)
-4. [Getting Started with Nix](#getting-started-with-nix)
-5. [Conclusion](#conclusion)
 
 ## Introduction to Nix
 

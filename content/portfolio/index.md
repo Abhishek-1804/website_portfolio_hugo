@@ -1,6 +1,17 @@
 ---
-title: "Portfolio"
+title: "About Me"
 date: 2024-12-01T10:02:47-07:00
+tags:
+  [
+    "portfolio",
+    "about me",
+    "personal website",
+    "projects",
+    "education",
+    "work experience",
+    "profile",
+    "skills",
+  ]
 draft: false
 ---
 
@@ -29,7 +40,7 @@ Here’s what I bring to the table:
 
 ## Work Experience 💼
 
-### **Data Analyst**
+### Data Analyst
 
 **Ganit Inc** (August 2022 – March 2023)
 
@@ -40,7 +51,7 @@ Here’s what I bring to the table:
 
 ---
 
-### **Data Analyst Intern**
+### Data Analyst Intern
 
 **Ganit Inc** (February 2022 – July 2022)
 
@@ -65,7 +76,7 @@ Here’s what I bring to the table:
 
 ---
 
-### **Master’s of Science in Computer Science**
+### Master’s of Science in Computer Science
 
 **Arizona State University**  
 _(January 2024 – Present)_
@@ -83,10 +94,9 @@ _(January 2024 – Present)_
 <!--   Data Mining, Data Processing at Scale, Software Verification and Validation Testing -->
 
 <!-- - **Fall 2025 Coursework**:   -->
+<!--   Data Mining, Data Processing at Scale, Software Verification and Validation Testing -->
 
-## <!--   Data Mining, Data Processing at Scale, Software Verification and Validation Testing -->
-
-### **Bachelor’s of Technology in Aeronautical Engineering**
+### Bachelor’s of Technology in Aeronautical Engineering
 
 **Manipal Institute of Technology**  
 _(July 2018 – June 2022)_

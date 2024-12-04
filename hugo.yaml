@@ -9,6 +9,10 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
+minify:
+  disableXML: true
+  minifyOutput: true
+
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Portfolio
@@ -25,7 +29,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -34,7 +38,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
-  showtoc: false
+  showtoc: true
   tocopen: false
 
   assets:
@@ -60,14 +64,12 @@ params:
     imageHeight: 150
     imageTitle: Me
     buttons:
-      - name: About Me
+      - name: Portfolio
         url: portfolio
       - name: Resume
         url: "https://drive.google.com/file/d/1Z0g-mcGxI1uOAOPPMJjPJ26FwhIdPU84/view?usp=drive_link"
       - name: Blog
         url: posts
-      # - name: Tags
-      #   url: tags
 
   # home-info mode
   homeInfoParams:
@@ -82,13 +84,21 @@ params:
     - name: buymeacoffee
       url: "https://buymeacoffee.com/abhishekdeshpande"
 
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
     hiddenInSingle: false # hide on single page
 
   # editPost:
-  #   URL: "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio/content"
+  #   URL: "https://github.com/Abhishek-1804/abhishekdeshpande_portfolio/tree/main/content"
   #   Text: "Suggest Changes" # edit text
   #   appendFilePath: true # to append file path to Edit link
 
@@ -117,7 +127,7 @@ menu:
       url: /
       weight: 1
     - identifier: portfolio
-      name: About Me
+      name: Portfolio
       url: portfolio/
       weight: 2
     - identifier: blog
@@ -128,10 +138,14 @@ menu:
       name: Archives
       url: archives/
       weight: 4
+    - identifier: tags
+      name: Tags
+      url: tags/
+      weight: 5
     - identifier: search
       name: Search
       url: search/
-      weight: 5
+      weight: 6
       # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
