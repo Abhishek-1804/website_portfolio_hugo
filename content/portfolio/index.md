@@ -72,9 +72,16 @@ Here’s what I bring to the table:
 
 ---
 
-## Education 🎓
+## Open Source Contributions 🌐
+
+| **Project**                                                                                        | **Contribution**                                                                                                      | **PR Link**                                                                                     |
+| -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| [**tldr-pages (51.8k+ GitHub stars)**](https://github.com/tldr-pages/tldr)                         | Added new command pages for `darwin-rebuild` and `chat`, expanding the coverage of commonly used tools               | [PR #15175](https://github.com/tldr-pages/tldr/pull/15175), [PR #13713](https://github.com/tldr-pages/tldr/pull/13713) |
+| [**tldr-pages (51.8k+ GitHub stars)**](https://github.com/tldr-pages/tldr)                         | Enhanced `home-manager` documentation to improve clarity and user experience                                         | [PR #15175](https://github.com/tldr-pages/tldr/pull/15175)                                       |
 
 ---
+
+## Education 🎓
 
 ### Master’s of Science in Computer Science
 
